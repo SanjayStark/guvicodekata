@@ -1,12 +1,10 @@
-l1=["a","e","i","o","u","A","B","I","O","U"]
-l2=["~","!","@","#","$","%","^","&","*","(",")","_","+","`","/","*","-","+","=","[","]","{","}",":",";","<",">","?","/","0","1","2","3","4","5","6","7","8","9"]
-a=input()
-if a==l1:
-    print("Vowels")
-elif a==l2:
-        print("Invalid")
+ch=input()
+vowels=['a','e','i','o','u']
+consonant=['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z']
+if ch in vowels:
+    print("Vowel")
+elif ch in consonant:
+    print("Consonant")
 else:
-    print("co")
+    print("invalid")
     
-    
-  
