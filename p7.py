@@ -1,3 +1,3 @@
-n=int(input())
-m=n*(n+1)//2
-print(m)
+e=int(input())
+for i in range(e):
+    print("Hello")
